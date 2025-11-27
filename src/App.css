@@ -1,0 +1,99 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+
+ /*----------------Fondo y regla general------------*/
+body{
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(#F7F7F4);
+  color: #535353
+}
+
+@layer components {
+
+  /*----------------Titulos y parrafos------------*/
+  .titulo_h1 {
+    @apply text-4xl font-extrabold  tracking-tight mb-4 ;
+  }
+
+  .titulo_h2 {
+    @apply text-3xl font-semibold  tracking-tight mb-4;
+  }
+
+  .titulo_h3{
+    @apply text-2xl font-semibold tracking-tight mb-4;
+  }
+
+  .link_nav{
+    @apply text-lg p-3 hover:text-zinc-950
+  }
+
+  .parrafo{
+    @apply text-xl font-normal tracking-tight;
+  }
+}
+
+
+ /*----------------Efecto Wave------------*/
+.custom-shape-divider-bottom-1762962662 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1762962662 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 171px;
+}
+
+.custom-shape-divider-bottom-1762962662 .shape-fill {
+    fill: #EAE0D5;
+}
+
+.custom-shape-divider-bottom-1763040645 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1763040645 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 171px;
+}
+
+.custom-shape-divider-bottom-1763040645 .shape-fill {
+    fill: #F7F7F4;
+}
+
+
+.custom-shape-divider-bottom-1763566470 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1763566470 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+}
+
+.custom-shape-divider-bottom-1763566470 .shape-fill {
+    fill: #EAE0D5;
+}
